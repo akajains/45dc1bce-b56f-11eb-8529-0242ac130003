@@ -1,13 +1,14 @@
 import sys
-class  LongestIncreasingSequence():
-    
-    def __init__(self): self.candidateSeq={}; self.tempResult=[]    
+class  LongestIncreasingSequence():    
+    def __init__(self): 
+        self.candidateSeq={} 
+        self.tempResult=[]
     
     def Find(self, args):        
         #map input to python array
-        inputList = list(map(int,args.split()))
-        #member variable declaration        
-        #tempResult=[]        
+        inputList = list(map(int,args.split()))               
+        self.candidateSeq.clear(); self.tempResult.clear();        
+        
         for k in range(len(inputList)):            
             if k and inputList[k-1] >= inputList[k]:                
                 flag = k                
