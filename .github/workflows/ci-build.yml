@@ -1,7 +1,7 @@
 name: build-sequence-app
 on: [push]
 jobs:
-  build:
+  lint-test-build:
     runs-on: ubuntu-latest
     steps:
       - name: Display Dir
