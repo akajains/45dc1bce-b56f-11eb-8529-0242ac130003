@@ -3,10 +3,7 @@ on: [push]
 jobs:
   lint-test-build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Display Dir
-        run: echo $PWD
-        shell: bash    
+    steps:       
       - uses: actions/checkout@v2
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -18,10 +15,7 @@ jobs:
       - name: Lint code
         run: |
           pip install flake8
-          flake8 .
-      - name: debug info
-        run: |
-          echo $PWD
+          flake8 .      
       - name: Unit test
         run: |
           python test_longestIncreasingSequence.py
