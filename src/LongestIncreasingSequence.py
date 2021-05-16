@@ -34,10 +34,10 @@ class LongestIncreasingSequence:
         return longestSequence
 
     def AddtoCollection(self, key):
-        if not key in self.candidateSeq:
+        if key not in self.candidateSeq:
             self.candidateSeq[key] = self.tempResult.copy()
 
 
 if __name__ == '__main__':
     longestIncreatingSequence = LongestIncreasingSequence()
-    print longestIncreatingSequence.Find(sys.argv[1])
+    print (longestIncreatingSequence.Find(sys.argv[1]))
