@@ -18,8 +18,7 @@ class LongestIncreasingSequence:
         self.tempResult.clear()
 
         for k in range(len(inputList)):
-            if k and inputList[k - 1] >= inputList[k]:
-                flag = k
+            if k and inputList[k - 1] >= inputList[k]:                
                 self.tempResult.clear()
                 self.tempResult.append(inputList[k])
                 self.AddtoCollection(len(self.tempResult))
@@ -40,4 +39,4 @@ class LongestIncreasingSequence:
 
 if __name__ == '__main__':
     longestIncreatingSequence = LongestIncreasingSequence()
-    print (longestIncreatingSequence.Find(sys.argv[1]))
+    print(longestIncreatingSequence.Find(sys.argv[1]))
