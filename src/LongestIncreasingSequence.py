@@ -18,7 +18,7 @@ class LongestIncreasingSequence:
         self.tempResult.clear()
 
         for k in range(len(inputList)):
-            if k and inputList[k - 1] >= inputList[k]:                
+            if k and inputList[k - 1] >= inputList[k]:
                 self.tempResult.clear()
                 self.tempResult.append(inputList[k])
                 self.AddtoCollection(len(self.tempResult))
