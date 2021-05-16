@@ -19,3 +19,9 @@ jobs:
         run: |
           pip install flake8
           flake8 .
+      - name: debug info
+        run: |
+          echo $PWD
+      - name: Unit test
+        run: |
+          python test_longestIncreasingSequence.py
