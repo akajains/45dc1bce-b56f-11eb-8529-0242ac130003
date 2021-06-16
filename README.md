@@ -3,7 +3,7 @@
 ### Clone repository 
 `$ git clone https://github.com/akajains/longest_increasing_continuous_subsequence.git`
 
-`$ cd 45dc1bce-b56f-11eb-8529-0242ac130003`
+`$ cd longest_increasing_continuous_subsequence`
 ### Run service
 `$ docker-compose up`
 
