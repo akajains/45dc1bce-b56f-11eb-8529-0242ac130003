@@ -1,7 +1,7 @@
 ## Readme
 
 ### Clone repository 
-`$ git clone https://github.com/akajains/45dc1bce-b56f-11eb-8529-0242ac130003.git`
+`$ git clone https://github.com/akajains/longest_increasing_continuous_subsequence.git`
 
 `$ cd 45dc1bce-b56f-11eb-8529-0242ac130003`
 ### Run service
