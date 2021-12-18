@@ -79,6 +79,11 @@ class Test(unittest.TestCase):
         result = self.sequence.Find('6 2 4 3 1 5 9')
         self.assertEqual(result, '1 5 9')
 
+    def test_find_testCase11(self):
+        result = self.sequence.Find('6')
+        self.assertEqual(result, '6')
+        
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
