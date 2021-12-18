@@ -4,6 +4,10 @@
 `$ git clone https://github.com/akajains/longest_increasing_continuous_subsequence.git`
 
 `$ cd longest_increasing_continuous_subsequence`
+
+### Build Docker Image
+`$ docker-compose build`
+
 ### Run service
 `$ docker-compose up`
 
